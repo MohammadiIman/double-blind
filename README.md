@@ -1,62 +1,44 @@
-# Computer science conferences: Double-blind status
+# Computer Science Conferences: Double-blind Status
 
-This document tracks the status of major computer science conferences
-(currently defined as those listed in http://csrankings.org) with
-respect to how they maintain anonymity during the reviewing process;
-it is curated by [Emery Berger](https://emeryberger.com).
+This document provides a curated overview of the anonymity policies of major computer science conferences (as defined by [CSRankings](http://csrankings.org)). It is maintained by [Emery Berger](https://emeryberger.com).
 
-For the purposes of this document:
+The following terms are used:
 
-* _Single-blind_ means that author identities and affiliations are visible
-to reviewers at all points during the reviewing process.
+- **Single-blind**: Author identities and affiliations are visible to reviewers at all stages.
+- **At least partially double-blind**: Author identities and affiliations are concealed during the initial review process.
+- **Fully double-blind (blind to accept)**: Reviewer anonymity is maintained until the Program Committee meeting concludes, with identities disclosed only for accepted (or conditionally accepted) papers. For conferences that do not explicitly state this in their CFP, the policy has been confirmed directly with the program chairs.
 
-* _At least partially double-blind_ means that author identities and
-affiliations are not revealed for papers prior to the submission of
-_initial_ paper reviews.
+Below is a table summarizing the status for each conference:
 
-* _Fully double-blind_ means that "double-blind to accept" is
-employed.  That is, author identities and affiliations are not
-revealed until the conclusion of the PC meeting, and only for accepted
-papers (including conditionally-accepted papers, pending modifications
-due to shepherding). In cases where the CFP does not explicitly state
-the use of full double-blind reviewing, this status has been verified directly
-with the program chair(s).
+| Conference                | At least partially double-blind? | Fully double-blind (blind to accept)? | CFP or Similar Link |
+| :------------------------ | :------------------------------: | :-----------------------------------: | :-----------------: |
+| **_Fully double-blind conferences_** |  |  |  |
+| ASPLOS                    | :heavy_check_mark:               | :heavy_check_mark:                    | [Submission Info](https://asplos-conference.org/submissions/) |
+| CAV                       | :heavy_check_mark:               | :heavy_check_mark:                    | [Call for Papers](http://i-cav.org/2020/call-for-papers/) |
+| CCS                       | :heavy_check_mark:               | :heavy_check_mark:                    | [CFP](https://www.sigsac.org/ccs/CCS2020/call-for-papers.html) |
+| FSE                       | :heavy_check_mark:               | :heavy_check_mark:                    | [Track Info](https://2020.esec-fse.org/track/fse-2020-papers) |
+| ICML                      | :heavy_check_mark:               | :heavy_check_mark:                    | [Call for Papers](https://icml.cc/Conferences/2020/CallForPapers) |
+| ICSE                      | :heavy_check_mark:               | :heavy_check_mark:                    | [Submission Guidelines](https://conf.researchr.org/track/icse-2020/icse-2020-papers#Submitting-to-ICSE-Q-A) |
+| ISCA                      | :heavy_check_mark:               | :heavy_check_mark:                    | [Submission Guidelines](https://www.iscaconf.org/isca2020/submit/guidelines.html) |
+| NSDI                      | :heavy_check_mark:               | :heavy_check_mark:                    | [CFP](https://www.usenix.org/conference/nsdi20/call-for-papers) |
+| Oakland (IEEE S&P)        | :heavy_check_mark:               | :heavy_check_mark:                    | [CFP](https://www.ieee-security.org/TC/SP2020/cfpapers.html) |
+| OOPSLA                    | :heavy_check_mark:               | :heavy_check_mark:                    | [Call for Papers](https://2020.splashcon.org/track/splash-2020-oopsla#Call-for-Papers) |
+| OSDI                      | :heavy_check_mark:               | :heavy_check_mark:                    | [CFP](https://www.usenix.org/conference/osdi20/call-for-papers) |
+| PLDI                      | :heavy_check_mark:               | :heavy_check_mark:                    | [CFP and FAQs](http://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf), [PLDI Track](https://pldi20.sigplan.org/track/pldi-2020-papers#FAQ-on-Double-Blind-Reviewing)) |
+| SIGMOD                    | :heavy_check_mark:               | :heavy_check_mark:                    | [Call for Papers](https://sigmod2020.org/calls_papers_sigmod_research.shtml) |
+| SOSP                      | :heavy_check_mark:               | :heavy_check_mark:                    | [CFP](https://sosp19.rcs.uwaterloo.ca/cfp.html) |
+| USENIX ATC                | :heavy_check_mark:               | :heavy_check_mark:                    | [CFP](https://www.usenix.org/conference/atc20/call-for-papers) |
+| **_Pending verification of full double-blind status_** |  |  |  |
+| MICRO                     | :heavy_check_mark:               | ?                                     | [Submission Guidelines](https://www.microarch.org/micro52/submit/guidelines.html) |
+| **_Partially double-blind conferences_** |  |  |  |
+| ICFP                      | :heavy_check_mark:               |                                       | [CFP](https://conf.researchr.org/track/icfp-2020/icfp-2020-papers#Call-for-Papers) |
+| NeurIPS                   | Blind for reviewers (not for area chairs/PC) |  | [Call for Papers](https://nips.cc/Conferences/2019/CallForPapers) |
+| POPL                      | :heavy_check_mark:               |                                       | [CFP](https://popl20.sigplan.org/track/POPL-2020-Research-Papers#POPL-2020-Call-for-Papers) |
+| **_Single-blind conferences_** |  |  |  |
+| VLDB                      |                                  |                                       | [Submission Guidelines](https://vldb2020.org/submission-guidelines.html) |
 
-| Conference | At least partially double-blind? | Fully double-blind (blind to accept)? | CFP or similar |
-| :--        | :--: | :--:                    | :--           |
-|            |      |                         |               |
-| _fully double-blind conferences_ | 
-| ASPLOS     | :heavy_check_mark:     | :heavy_check_mark:      | https://asplos-conference.org/submissions/ |
-| CAV        | :heavy_check_mark:     | :heavy_check_mark:      | http://i-cav.org/2020/call-for-papers/ |
-| CCS        | :heavy_check_mark:     | :heavy_check_mark:      | https://www.sigsac.org/ccs/CCS2020/call-for-papers.html |
-| FSE        | :heavy_check_mark:     | :heavy_check_mark: | https://2020.esec-fse.org/track/fse-2020-papers |
-| ICML       | :heavy_check_mark:     | :heavy_check_mark: | https://icml.cc/Conferences/2020/CallForPapers |
-| ICSE       | :heavy_check_mark:     | :heavy_check_mark:      | https://conf.researchr.org/track/icse-2020/icse-2020-papers#Submitting-to-ICSE-Q-A |
-| ISCA       | :heavy_check_mark:     | :heavy_check_mark: | https://www.iscaconf.org/isca2020/submit/guidelines.html |
-| NSDI       | :heavy_check_mark:     | :heavy_check_mark: | https://www.usenix.org/conference/nsdi20/call-for-papers |
-| Oakland (IEEE S&P) | :heavy_check_mark: | :heavy_check_mark: | https://www.ieee-security.org/TC/SP2020/cfpapers.html |
-| OOPSLA     | :heavy_check_mark:     | :heavy_check_mark:      | https://2020.splashcon.org/track/splash-2020-oopsla#Call-for-Papers |
-| OSDI       | :heavy_check_mark:     | :heavy_check_mark: | https://www.usenix.org/conference/osdi20/call-for-papers |
-| PLDI       | :heavy_check_mark:     | :heavy_check_mark:      | http://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf, https://pldi20.sigplan.org/track/pldi-2020-papers#FAQ-on-Double-Blind-Reviewing |
-| SIGMOD     | :heavy_check_mark:     | :heavy_check_mark: | https://sigmod2020.org/calls_papers_sigmod_research.shtml |
-| SOSP       | :heavy_check_mark:     | :heavy_check_mark:      | https://sosp19.rcs.uwaterloo.ca/cfp.html |
-| USENIX ATC | :heavy_check_mark:     | :heavy_check_mark: | https://www.usenix.org/conference/atc20/call-for-papers |
-|            |      |                   |                                                         |
-| _pending verification of double blind-to-accept status_ | | | |
-| MICRO      | :heavy_check_mark:     | ? | https://www.microarch.org/micro52/submit/guidelines.html |
-|            |      |                   |                                                         |
-| _partially double-blind conferences_ | | | |
-| ICFP       | :heavy_check_mark: |  | https://conf.researchr.org/track/icfp-2020/icfp-2020-papers#Call-for-Papers |
-| NeurIPS    | blind for reviewers, not area chairs or program chair | | https://nips.cc/Conferences/2019/CallForPapers |
-| POPL       | :heavy_check_mark: |  | https://popl20.sigplan.org/track/POPL-2020-Research-Papers#POPL-2020-Call-for-Papers |
-|            |      |                   |                                                         |
-| _single-blind conferences_ | | | |
-| VLDB       |      |                         | https://vldb2020.org/submission-guidelines.html |
+## Resources on Double-Blind Reviewing
 
-## Resources related to double-blind reviewing
-
-* [**Effectiveness of Anonymization in Double-Blind Reviewing**](https://dl.acm.org/doi/10.1145/3208157), Le Goues, Brun, Appel, Berger, Khurshid, Smaragdakis; Communications of the ACM, May 2018. [ArXiv link](https://arxiv.org/abs/1709.01609)
-
-* [**Improving Publication Quality by Reducing Bias with Double-Blind Reviewing and Author Response**](http://www.cs.utexas.edu/users/mckinley/papers/blind-2008.pdf); ACM SIGPLAN Notices, 43(8):5--9, McKinley, 2008.
-
-* [**More on Improving Reviewing Quality with Double-Blind Reviewing, External Review Committees, Author Response, and in Person Program Committee Meetings**](http://www.cs.utexas.edu/users/mckinley/notes/blind.html), McKinley, 2015.
+- **Effectiveness of Anonymization in Double-Blind Reviewing** – Le Goues, Brun, Appel, Berger, Khurshid, Smaragdakis; *Communications of the ACM*, May 2018. [Read on ACM](https://dl.acm.org/doi/10.1145/3208157) | [ArXiv](https://arxiv.org/abs/1709.01609)
+- **Improving Publication Quality by Reducing Bias with Double-Blind Reviewing and Author Response** – *ACM SIGPLAN Notices*, 43(8):5–9, McKinley, 2008. [PDF](http://www.cs.utexas.edu/users/mckinley/papers/blind-2008.pdf)
+- **More on Improving Reviewing Quality with Double-Blind Reviewing, External Review Committees, Author Response, and In-Person PC Meetings** – McKinley, 2015. [More details](http://www.cs.utexas.edu/users/mckinley/notes/blind.html)

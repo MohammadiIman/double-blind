@@ -8,19 +8,17 @@ it is curated by [Emery Berger](https://emeryberger.com).
 For the purposes of this document:
 
 * _Single-blind_ means that author identities and affiliations are visible
-to reviewers at all points during the reviewing process.
+to reviewers at all stages during the reviewing process.
 
 * _At least partially double-blind_ means that author identities and
-affiliations are not revealed for papers prior to the submission of
-initial paper reviews.
+affiliations are hidden during the initial paper review phase.
 
 * _Double-blind to accept_ means full double-blind reviewing, that is,
-where author identities and affiliations are not revealed before the
-conclusion of the PC meeting, and only for accepted papers (including
-conditionally-accepted papers, pending modifications due to
-shepherding). In cases where the CFP does not explicitly state the use
-of double-blind to accept, this status has been verified personally
-with the program chair(s).
+where author identities and affiliations remain hidden until after
+the Program Committee meeting, with identities revealed only for
+accepted (or conditionally accepted) papers.
+When the CFP does not explicitly mention full double-blind reviewing,
+this status has been verified directly with the program chair(s).
 
 | Conference | At least partially double-blind? | Double blind to accept? | CFP or similar |
 | :--        | :--: | :--:                    | :--           |
@@ -51,4 +49,3 @@ with the program chair(s).
 ## Resources related to double-blind reviewing
 
 * [**Effectiveness of Anonymization in Double-Blind Reviewing**](https://dl.acm.org/doi/10.1145/3208157), Le Goeues, Brun, Appel, Berger, Khurshid, Smaragdakis, Communications of the ACM, May 2018. [ArXiv link](https://arxiv.org/abs/1709.01609)
-
